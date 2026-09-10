@@ -1,0 +1,19 @@
+# Large / not ours to redistribute
+twcs.csv
+
+# Generated output (not source)
+agent_results*.csv
+
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Old scaffold, out of sync with current setup -- remove or merge manually
+repo-scaffold/
