@@ -61,11 +61,9 @@ API instead of a local model. Kept for reference; requires an
 `ANTHROPIC_API_KEY` in a `.env` file to run. `agent_local.py` and
 `agent_batch.py` are the actively-used, free versions.
 
-## Status / results
+## Status 
 
-_Fill in after running: classifier accuracy against a hand-labeled sample,
-how many tweets were auto-handled vs. escalated, and a couple of example
-tweet → classification → drafted reply outputs._
+Classification, escalation and reply drafting are implemented. Accuracy against a hand-labeled test set has not been measured yet.
 
 ## What I learned
 
